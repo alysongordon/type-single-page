@@ -8,7 +8,7 @@
     }
     
     body{
-    background-color: lightsteelblue;
+    background-color: #F9FAC2;
     font-family: 'Tilt Warp';
 }
 /* how the page wrapper will appear on mobile */
@@ -43,11 +43,12 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: #FF9393;
 }
 
 /* variable font animation */
 h3{
+    color: #FF9393;
     font-weight:20; 
     text-align: center;
     font-size: 5em;
