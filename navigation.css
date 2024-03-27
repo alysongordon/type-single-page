@@ -9,6 +9,7 @@
   header {
     /* where to set the color of the nav bar */
       background: #FF9393;
+      color:#F9FAC2;
       text-align: center;
       top:0px;
       position: fixed;

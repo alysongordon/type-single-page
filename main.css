@@ -8,8 +8,9 @@
     }
     
     body{
-    background-color: #F9FAC2;
+    background-color: #f9f9d4;
     font-family: 'Tilt Warp';
+    color:#FF9393;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -34,6 +35,7 @@ grid-area: h;
 }
 
 .variations{
+    position: relative;left: 160px;
 grid-area: v;
 }
 
@@ -44,14 +46,27 @@ grid-area: a;
 /* CSS for the footer */
 footer{
     background-color: #FF9393;
+    height: 100px;
+    /* color: #f9f9d4; */
+    color: #f9f9d4;
 }
 
+.footertext{
+line-height: .6;
+position: relative;left: 1080px;
+padding: 5px;
+}
+
+.webtype{
+ position: relative;left: 850px;
+ position: relative;top: -75px;
+}
 /* variable font animation */
 h3{
     color: #FF9393;
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 120px;
     animation: weightChange 7s infinite;
 }
 

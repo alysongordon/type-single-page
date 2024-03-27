@@ -1,2 +1,3 @@
 # type-single-page
- 
+
+For this project I was tempting to deliver information about the font that I chose, Titl warp. I do think that it was delivered and you can tell whats it is supposed to be. Coding is not for me, I don't really like it but I will always try my best to make it look good and have everything it's supposed to have on it done to the best of my abilities. So far the only featurest that are on there is the title that moves, still working on the buttons. The only font that I used is the Title Font and it was used throughout the whole website. My mock ups were done in figma becuiase it's easy to use and it is also very simple and looks pretty.
