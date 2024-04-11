@@ -62,12 +62,56 @@ padding: 5px;
  position: relative;top: -75px;
 }
 /* variable font animation */
+h2{
+    animation: sizeChange 7s infinite;
+}
+@keyframes sizeChange {
+    0%, 100%{
+        font-variation-settings: "HROT" 100, "VROT" 0;
+    }
+    50%{ font-variation-settings: "HROT" 0, "VROT" 0;
+    }
+    
+}
+h1{
+    font-size: 40px;
+}
+
 h3{
     color: #FF9393;
     font-weight:20; 
     text-align: center;
     font-size: 120px;
     animation: weightChange 7s infinite;
+}
+.hrot{
+    animation: hrotChange 7s infinite;
+}
+
+h4{
+    font-size:60px;
+}
+
+@keyframes hrotChange {
+    0%, 100%{
+        font-variation-settings: "HROT" 45, "VROT" 0;
+    }
+    50%{ font-variation-settings: "HROT" -45, "VROT" 0;
+    }
+    
+}
+
+.vrot{
+    animation: vrotChange 7s infinite;
+}
+
+@keyframes vrotChange {
+    0%, 100%{
+        font-variation-settings: "HROT" 0, "VROT" 45;
+    }
+    50%{ font-variation-settings: "HROT" 0, "VROT" -45;
+    }
+    
 }
 
 @keyframes weightChange {
